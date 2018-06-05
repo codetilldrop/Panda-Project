@@ -31,3 +31,25 @@
 ### Functions
 
 - "print" = Print
+
+## Documentation
+### HOW TO: Declarations
+
+Samples of valid variable declarations are listed below
+
+```
+new variableName1 = 13;
+new variableName2 = variableName1;
+new variableName3 = variableName1 + 3;
+```
+
+Restrictions in Panda for declaring variables 
+
+- Inability to assign a value to more than 2 values in a binary expression
+- Only numerical values 
+
+Things to keep in mind when declaring variables in Panda
+
+- Make sure that you don't have variables which exceed over 256 or are under 0 otherwise the code will parse but you will have buggy machine code
+
+- Make sure there is no space between the last part of the statement and semi colon
