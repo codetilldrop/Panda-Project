@@ -91,10 +91,10 @@ Restrictions in Panda for print
 - Inability to print binary expressions
 - Only numerical values 
 
-Things to keep in mind when assigning variables in Panda
+Things to keep in mind when printing in Panda
 
 - Make sure that you don't have variables which exceed over 256 or are under 0 otherwise the code will parse but you will have buggy machine code
 
 - Make sure you don't use floats in your code
 
-- Make sure there is no space between the last part of the statement and semi colonn
+- Make sure there is no space between the last part of the statement and semi colon
